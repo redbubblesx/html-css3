@@ -10,7 +10,7 @@
 }
 
 body {
-    background: var(--preta);
+    background: #141414;
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
 }
@@ -36,4 +36,13 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+/*Filme principal*/ 
+
+.filme-principal {
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)100%), url(img/vikings-capa.jpg);
+    height: 400px;
+    background-size: cover;
 }
